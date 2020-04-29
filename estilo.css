@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(180deg, rgba(245, 245, 245, 0.6) 100px, rgba(245, 245, 245, 0.9) 200px, rgba(252, 252, 252, 1) 300px), url('https://www.paho.org/sites/default/files/styles/flexslider_full/public/hero/2020-03/covid-19-1190x574-2-full.jpg');
+    background: linear-gradient(180deg, rgba(105, 174, 109, 0.5) 100px, rgba(245, 245, 245, 0.8) 200px, rgba(252, 252, 252, 1) 300px), url('https://specials-images.forbesimg.com/imageserve/1207957894/960x0.jpg?fit=scale');
     background-size: 100% auto;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
@@ -21,7 +21,6 @@ a {
     text-decoration: underline;
     color: #000;
 }
-
 a:hover {
     text-decoration: none;
 }
@@ -34,12 +33,12 @@ h1 {
 
 h1 a {
     text-decoration: none;
-    color: #b71c1c;
+    color: #D36900;
 }
 
 h1 a:hover {
     text-decoration: none;
-    color: #c62828;
+    color: #038706;
 }
 
 h2 {
@@ -259,4 +258,15 @@ footer {
 
 .derecha {
     float: right;
+}
+
+a[href$=".pdf"] {
+  color: #D36900;
+  padding: 3px;
+  border-radius: 3px;
+}
+a[href$=".pdf"]:hover {
+  background-color: #D36900;
+  color: #ffffff;
+  padding: 3px;
 }
